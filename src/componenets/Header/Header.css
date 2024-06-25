@@ -1,0 +1,90 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  color: black;
+  width: 100%;
+}
+
+.logo {
+  font-weight: bold;
+  background-color: #e7e7e7;
+  color: #dc4a2d;
+  padding: 1em 1.25em;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.user-profile {
+  display: flex;
+  gap: 10px;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d1d1d1;
+  border-radius: 100px;
+  padding-left: 0;
+  padding: 0.75em;
+  color: #b0b0b0;
+}
+.nav-links-jobs {
+  background-color: #dc4a2d;
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 3px solid #fcb4a5;
+}
+
+.nav-links-messages,
+.nav-links-payments {
+  padding: 0.5em;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-links-messages {
+  gap: 1px;
+}
+.span-messages {
+  position: relative;
+  right: 7px;
+  bottom: 9px;
+  padding: 0.15em;
+  background-color: #dc4a2d;
+  border-radius: 100%;
+}
+.notification-icon {
+  position: relative;
+}
+.img-notification {
+  width: 30px;
+}
+.span-notification {
+  padding: 0.2em;
+  background-color: #dc4a2d;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.img-atlassian {
+  width: 50px;
+}
+.user-profile ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}

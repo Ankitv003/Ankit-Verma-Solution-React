@@ -1,0 +1,42 @@
+.job ul {
+  list-style: none;
+  padding: 0;
+  border-bottom: 1px solid #eee;
+}
+
+.job li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #888888;
+  margin-left: 7em;
+}
+.toggle-list {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0;
+}
+#toggle-list-job {
+  color: #dc4a2d;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-left: 4.25em;
+}
+.tab {
+  padding: 0.2em;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: -2px;
+}
+.tab.active {
+  color: #dc4a2d; /* Adjust the color as needed */
+}
+.tab.active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 20px;
+  width: 65%;
+  height: 2px;
+  background-color: #dc4a2d; /* Adjust the color as needed */
+}

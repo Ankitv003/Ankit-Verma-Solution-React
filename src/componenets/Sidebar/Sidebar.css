@@ -1,0 +1,60 @@
+.sidebar {
+  width: 400px;
+  border: 1px solid #eee;
+  padding: 20px;
+  background-color: #fcfcfc;
+  padding-top: 2em;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.actions .btn {
+  padding: 0.5em 1.5em;
+  margin-left: 10px;
+  width: 50%;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.delete {
+  background-color: #fef4f2;
+  color: #dc4a2d;
+  border: 1px solid #dc4a2d;
+}
+
+.edit {
+  background-color: #dc4a2d;
+  color: white;
+  border: 2px solid #fcb4a5;
+}
+
+.application-info ul {
+  list-style: none;
+  padding-top: 1em;
+  padding-left: 0;
+}
+.application-info li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  padding: 1em 2.5em;
+  border-bottom: 1px solid #e7e7e7;
+}
+.application-info-numbers {
+  font-weight: 700;
+}
+.application-info-names {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.application-info-names img {
+  margin-right: 0.5em;
+}
