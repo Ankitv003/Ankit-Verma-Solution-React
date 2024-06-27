@@ -1,0 +1,23 @@
+.company-details {
+  margin-top: 20px;
+  padding: 2em 0 2em 4.25em;
+}
+
+.company-details-text {
+  display: flex;
+  gap: 8em;
+}
+.col div {
+  margin-bottom: 1em;
+}
+/* .col p {
+  margin-bottom: 0;
+} */
+.text-bold {
+  font-weight: 500;
+  margin-top: 0;
+}
+.text-header {
+  color: #6e6d6d;
+  margin-bottom: 0.2em;
+}

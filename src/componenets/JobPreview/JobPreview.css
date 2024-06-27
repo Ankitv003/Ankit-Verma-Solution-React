@@ -1,41 +1,6 @@
 .job-preview {
   flex: 1;
-  padding: 20px;
+
   padding-top: 2em;
-}
-
-.job-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 10px;
-}
-
-.job-header h1 {
-  margin: 0;
-  font-size: 24px;
-}
-
-.job-header p {
-  margin: 0;
-  color: #888;
-}
-
-.status {
-  color: green;
-}
-
-.job-details,
-.job-description,
-.company-details {
-  margin-top: 20px;
-}
-
-.skills span {
-  display: inline-block;
-  background-color: #eee;
-  padding: 5px 10px;
-  margin-right: 5px;
-  margin-top: 5px;
+  /* padding-left: 4.25em; */
 }

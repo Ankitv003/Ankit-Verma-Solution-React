@@ -1,0 +1,25 @@
+.job-description {
+  padding: 2em 0 2em 4.25em;
+  border-bottom: 1px solid #eee;
+}
+
+#about-job {
+  margin-bottom: 0.5em;
+  font-size: 0.85em;
+  color: #6e6d6d;
+}
+
+.job-description p {
+  margin: 0;
+  color: #3d3d3d;
+  font-weight: 500;
+}
+
+.job-description ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+li {
+  color: #3d3d3d;
+  font-weight: 500;
+}

@@ -1,0 +1,29 @@
+.job-details {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 4.25em;
+  border-bottom: 1px solid #eee;
+}
+.container {
+  width: 850px;
+  display: flex;
+}
+
+.row {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  margin-right: 7em;
+  font-size: 0.8rem;
+}
+
+.bold {
+  font-weight: 700;
+  margin-top: 0;
+}
+.row img {
+  margin-bottom: 0.5em;
+}
+.row p {
+  margin-bottom: 0.5em;
+}
