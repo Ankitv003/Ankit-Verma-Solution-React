@@ -1,7 +1,5 @@
 .job-details {
-  padding-top: 2em;
-  padding-bottom: 2em;
-  padding-left: 4.25em;
+  padding: 2em 0 2em 4.25em;
   border-bottom: 1px solid #eee;
 }
 .container {

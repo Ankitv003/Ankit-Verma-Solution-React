@@ -5,13 +5,14 @@
 
 #about-job {
   margin-bottom: 0.5em;
-  font-size: 0.85em;
+  font-size: 0.8rem;
   color: #6e6d6d;
 }
 
 .job-description p {
   margin: 0;
   color: #3d3d3d;
+  font-size: 0.9rem;
   font-weight: 500;
 }
 
@@ -19,7 +20,8 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-li {
+.job-description ul li {
   color: #3d3d3d;
+  font-size: 0.9rem;
   font-weight: 500;
 }

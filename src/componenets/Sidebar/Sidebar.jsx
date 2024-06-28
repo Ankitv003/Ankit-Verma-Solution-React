@@ -29,14 +29,14 @@ const Sidebar = () => {
             </span>
             <span className="application-info-numbers">100</span>
           </li>
-          <li>
+          <li className="message-item">
             <span className="application-info-names">
               <img src="images/messages.png" />
               Messages
             </span>
             <span className="application-info-numbers">147</span>
           </li>
-          <li>
+          <li className="views-item">
             <span className="application-info-names">
               <img src="images/views.png" />
               Views
